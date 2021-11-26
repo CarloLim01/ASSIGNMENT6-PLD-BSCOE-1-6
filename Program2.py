@@ -13,6 +13,12 @@ def random_number():
     print(f"{first} + {second}")
     return question
 
+def user_answer():
+    global question
+    question = random_number()
+    user_answer = int(input("Enter your answer: "))
+    return question == user_answer
+
 def start():
     user_name = input("\nEnter your name: ")
     print(f"\nHI {user_name}, WELCOME TO ADDITION QUIZ!")
