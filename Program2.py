@@ -5,6 +5,8 @@
 
 import random
 
+print("ADDITION QUIZ")
+
 def random_number():
     first = random.randint(0,99)
     second = random.randint(0,99)
@@ -52,3 +54,5 @@ def start():
         print(f"\nBetter luck next time.")
 
 start()
+
+print(f"\n-THANK YOU FOR USING ADDITION QUIZ-")
