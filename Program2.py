@@ -25,3 +25,12 @@ def start():
     print("\nThere would be 10 random addition question that you need to answer. ")
     print(input("\nPress 'enter' to proceed"))
 
+    user_score = 0
+    for i in range(10):
+        correct_answer = user_answer()
+        if correct_answer:
+            user_score += 1
+            print(f"Hi {user_name}, you got the correct answer!")      
+        else:
+            user_score = user_score    
+            print(f"Hi {user_name}, you're wrong. The correct answer is {question}.") 
