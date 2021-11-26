@@ -19,3 +19,15 @@ def number_sorter(first, second, third, fourth):
         print(f"\nSort from Highest to Lowest: {first}, {fourth}, {second}, {third}")
     elif first >= fourth and fourth >= third and third >= second:
         print(f"\nSort from Highest to Lowest: {first}, {fourth}, {third}, {second}")
+    elif second >= first and first >= third and third >= fourth:
+        print(f"\nSort from Highest to Lowest: {second}, {first}, {third}, {fourth}")
+    elif second >= first and first >= fourth and fourth >= third:
+        print(f"\nSort from Highest to Lowest : {second}, {first}, {fourth}, {third}")
+    elif second >= third and third >= first and first >= fourth:
+        print(f"\nSort from Highest to Lowest: {second}, {third}, {first}, {fourth}")
+    elif second >= third and third >= fourth and fourth >= first:
+        print(f"\nSort from Highest to Lowest: {second}, {third}, {fourth}, {first}")
+    elif second >= fourth and fourth >= first and first >= third:
+        print(f"\nSort from Highest to Lowest: {second}, {fourth}, {first}, {third}")
+    elif second >= fourth and fourth >= third and third >= first:
+        print(f"\nSort from Highest to Lowest: {second}, {fourth}, {third}, {first}")
