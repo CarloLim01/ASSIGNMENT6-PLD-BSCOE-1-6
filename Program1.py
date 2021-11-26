@@ -1,6 +1,8 @@
 # Create a program that ask 4 numbers. 
 # Print the 4 numbers from highest to lowest using only if-else statement.
 
+print("NUMBER SORTER")
+
 first = float(input("\nEnter the first number: "))
 second = float(input("Enter the second number: "))
 third = float(input("Enter the third number: "))
@@ -59,3 +61,4 @@ def number_sorter(first, second, third, fourth):
 
 number_sorter(first, second, third, fourth)
 
+print("\n-THANK YOU FOR USING NUMBER SORTER-")
